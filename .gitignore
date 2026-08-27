@@ -1,0 +1,16 @@
+# Ignore large dataset files
+data/raw/
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+
+# Ignore Python cache & virtual environments
+__pycache__/
+*.py[cod]
+venv/
+env/
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
